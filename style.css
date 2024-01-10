@@ -5,6 +5,7 @@
         height: 400px;
         width: 900px;
         position: relative;
+        display: block;
       }
 
       .flag0{
@@ -12,8 +13,10 @@
         width: 20%;
         border-bottom: 20px solid #25272b;
         border-right: 20px solid transparent;
-        position: relative;
+        position: absolute;
         top: 0px;
+        color: white;
+        font-size:1rem;
           }
 
 
@@ -30,12 +33,10 @@
 
       .flag3{
         width: 617px;
-        height: 0;
         border-left: 40px solid transparent;
         border-top: 40px solid #dbc64b;
         position: absolute;
         left: 27%;
-        top: 0%;
           }
       
     
@@ -80,7 +81,7 @@
  .flag7{
 
     background-color: #4d4429;
-    height: 100%;
+    height: 1400px;
     width: 900px;
     position: absolute;
 
@@ -91,18 +92,24 @@
     font-size: larger; 
     text-align: justify; 
     color: white;
+    margin-bottom: 10px;
  }
+
 
  .skills{
     display: inline-block;
-    margin-left: 150px;
+    margin-left: 100px;
     height: 300px;
-    width: 300px;
+    width: 355px;
+    color: white;
+    font-size: large;
  }
  .tools{
     display: inline-block;
     height: 300px;
-    width: 300px;
+    width: 440px;
+    color: white;
+    font-size: large;
  }
 .img{
     width: 210px;
@@ -118,8 +125,65 @@
 
   }
 
-h1{
+.skills  h1{
+    color: #96770f;
+}
+
+.tools h1{
     background-color: #96770f;
 }
 
-    
+.contact{
+    position: relative;
+    top: 450px;
+    display: block;
+    background-color: #727272;
+    height: 300px;
+    width: 900px;
+}
+.contacts{
+    position: absolute;
+    top: 50px;
+    width: 600px;
+    height: 250px;
+    color: white;
+    margin-left: 100px;
+    font-size: larger;
+}
+.experience{
+    color: white;
+    width: 900px;
+    height: 700px;
+    position: absolute;
+    top: 1164px;
+    font-size: large;
+}
+.experience h1{
+    background-color: #96770f;
+    width: 450px;
+    margin-left: 0;
+    text-indent: 100px;
+}
+
+.experience > div{
+    margin-left: 130px;
+}
+
+.experience h2{
+    line-height: 1px;
+}
+
+
+.footer{
+    background-color: #96770f;
+    height: 30px;
+    width: 900px;
+    position: relative;
+    top: 1100px;
+}
+.footer>div{
+    background-color: #25272b;
+    height: inherit;
+    width: 450px;
+    margin-left: 450px;
+}

@@ -187,3 +187,13 @@
     width: 450px;
     margin-left: 450px;
 }
+
+.page{
+    max-width: 900px;
+    margin: auto;
+    background-color: black;
+}
+
+.experience li{
+    text-wrap:balance;
+}
